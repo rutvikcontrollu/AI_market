@@ -1,7 +1,7 @@
 from groq import Groq
 
 client = Groq(
-    api_key="api_key_here"
+    api_key=" api_key_here "
 )
 
 response = client.chat.completions.create(
