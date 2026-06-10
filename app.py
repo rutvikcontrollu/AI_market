@@ -12,7 +12,7 @@ CORS(app)
 
 # GROQ CLIENT
 client = Groq(
-    api_key=" api_key_here "
+    api_key=os.getenv("GROQ_API_KEY")
 )
 
 
