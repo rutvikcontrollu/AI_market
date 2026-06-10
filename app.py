@@ -6,6 +6,8 @@ from services.github_service import get_github_projects
 from services.news_service import get_news_count
 
 from groq import Groq
+import os
+
 
 app = Flask(__name__)
 CORS(app)
