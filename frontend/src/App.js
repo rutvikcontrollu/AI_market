@@ -32,7 +32,7 @@ function App() {
       setTyping(true);
 
       const response = await fetch(
-        "https://ai-market-97r6.onrender.com/",
+        "https://ai-market-97r6.onrender.com/analyze",
         {
           method: "POST",
           headers: {
