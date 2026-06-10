@@ -32,7 +32,7 @@ function App() {
       setTyping(true);
 
       const response = await fetch(
-        "https://ai-market-97r6.onrender.com/analyze",
+        "https://ai-market-wcqw-f1naocrcn-rutvik-controllu.vercel.app/",
         {
           method: "POST",
           headers: {
